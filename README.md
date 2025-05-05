@@ -157,6 +157,8 @@ Examples:
 - `f('010') = 2`
 - `f('111') = 7`
 
+m = f(n2,n1,n0) = n0 * 1 + n1 * 2 + n2 * 4
+
 Draw both sets: the domain (all 3-digit binary strings) and the codomain (natural numbers 0 through 7), draw arrows to represent how each element of the domain maps to the codomain.
 
 
@@ -166,6 +168,7 @@ Draw both sets: the domain (all 3-digit binary strings) and the codomain (natura
 3. How do the terms *injective* and *surjective* relate to the here presented functions?
 4. What does the verb *to evaluate* mean? What are its ethymological roots and how is the term used in math and computer-science?
 5. Is a mapping from _l = m(n)_: ℕ→ℕ with _l, n ∈ ℕ_ still a function, if it adds a random value to _n_ every time the mapping is evaluated?
+    No, a fnctions has to have the exact output 
 
 
 ## 4) Advice
