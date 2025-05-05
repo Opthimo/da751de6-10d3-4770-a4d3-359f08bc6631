@@ -131,6 +131,8 @@ This is the essence of a **function as a mapping**.
 m = function(n) = n * n
 ```
 
+
+
 2. **Visualize a more complex function**: Visualize a function, which' domain is the set of all two capital letter character combinations in the latin alphabet, and the codomain being the set of natural numbers. Let the function definition be the sum of both characters counting distance to the letter `A`. 
 
 <details>
@@ -142,6 +144,21 @@ m = function(n) = n * n
 
   Start by writing out a mapping table if you get confused.
 </details>
+
+I1    I2                                  Q1 
+A      A    A(1) - A(1) + A(1) - A(1)      0
+A      B    B(2) - A(1) + A(1) - A(1)      1
+
++   A  B  C  D  E
+
+A  0   1  2  3  4  
+
+B  1
+
+C  2
+
+
+
 
 3. **Investigate Function Collisions**:  
 Define a function from the set of all 3-digit binary numbers (e.g. `'000'`, `'001'`, ..., `'111'`) to the set of natural numbers.  
@@ -162,10 +179,14 @@ Draw both sets: the domain (all 3-digit binary strings) and the codomain (natura
 
 ## 3) Questions
 1. What are other examples of functions, where objects of one set is being mapped onto a different set?
+  Note -> Frequenz, MIDI = Note->Hex
+
 2. Does it matter - in an abstract way - which types of elements are contained in a domain or codomain?
-3. How do the terms *injective* and *surjective* relate to the here presented functions?
-4. What does the verb *to evaluate* mean? What are its ethymological roots and how is the term used in math and computer-science?
-5. Is a mapping from _l = m(n)_: ℕ→ℕ with _l, n ∈ ℕ_ still a function, if it adds a random value to _n_ every time the mapping is evaluated?
+4. How do the terms *injective* and *surjective* relate to the here presented functions?
+  The of the the of results
+
+5. What does the verb *to evaluate* mean? What are its ethymological roots and how is the term used in math and computer-science?
+6. Is a mapping from _l = m(n)_: ℕ→ℕ with _l, n ∈ ℕ_ still a function, if it adds a random value to _n_ every time the mapping is evaluated?
 
 
 ## 4) Advice
